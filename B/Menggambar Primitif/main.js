@@ -1,6 +1,6 @@
 function main(){
     var canvas = document.getElementById("myCanvas");
-    var gl = canvas.getContext()
+    var gl = canvas.getContext("webgl")
 
     //definisi titik-titik segitiga
     /**
